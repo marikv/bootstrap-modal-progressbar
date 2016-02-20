@@ -6,7 +6,7 @@ Usage
 open: modalProgressBar.show();
 
 hide: modalProgressBar.hide();
-
+<pre>
 options: modalProgressBar.show("waiting ...", {
                 dialogSize: 'sm',
                 progressType: 'success',
@@ -14,4 +14,5 @@ options: modalProgressBar.show("waiting ...", {
                     alert('done');
                 }
 });
+</pre>
 
